@@ -1,9 +1,12 @@
 import React from 'react';
-import './styles/Formulario.css'
+import './styles/Addbutton.css'
 import Add from './../images/add.png'
+import {Link} from 'react-router-dom'
 
-const AddButton = () =>(
-    <img src={Add} className="Fitness-Add" alt="excercise"/>
+const AddButton = () => (
+    <Link to="/excercise/new">
+        <img src={Add} className="Fitness-Add" alt="excercise"/>
+    </Link>
 )
 
 

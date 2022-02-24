@@ -1,5 +1,4 @@
 import React from 'react';
-import excerciseImg from './../images/exercise.png'
 import './styles/Card.css'
 import circlesImg from '../images/circles.png'
 
