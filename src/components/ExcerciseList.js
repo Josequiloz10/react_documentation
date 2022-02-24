@@ -1,6 +1,5 @@
 import React from 'react'
 import Card from "./Card";
-
 const ExcerciseList = ({excercises}) => (
     <div>
         {excercises.map((excercise) => {
