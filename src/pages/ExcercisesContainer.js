@@ -3,10 +3,11 @@ import Excercices from './Excercises'
 import Loading from './../components/Loading'
 import FatalError from './500'
 import useFetch from './../hooks/useFetch'
+import url from './../config'
 
 const ExcercisesContainer = () => {
 
-    const {data, loading, error} = useFetch ('http://localhost:8000/api/exercises')
+    const {data, loading, error} = useFetch (`${url}/exercises`)
 
     if (loading)
         return <Loading/>
