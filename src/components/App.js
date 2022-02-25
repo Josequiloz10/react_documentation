@@ -2,6 +2,7 @@ import React from 'react'
 import {BrowserRouter, Route, Switch} from 'react-router-dom'
 import ExcercisesContainer from './../pages/ExcercisesContainer'
 import ExcercisesNewContainer from './../pages/ExcercisesNewContainer'
+import Example from './../pages/Example'
 import NotFound from './../pages/NotFound'
 
 
